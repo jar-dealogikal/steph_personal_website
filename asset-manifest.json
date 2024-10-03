@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/steph_personal_website/static/css/main.b8f2ebdc.css",
-    "main.js": "/steph_personal_website/static/js/main.5b60f39f.js",
+    "main.css": "/steph_personal_website/static/css/main.add701e5.css",
+    "main.js": "/steph_personal_website/static/js/main.a76af48f.js",
     "static/js/453.253ccfac.chunk.js": "/steph_personal_website/static/js/453.253ccfac.chunk.js",
     "static/media/img4.jpg": "/steph_personal_website/static/media/img4.e1c70de46f6539c1b9fa.jpg",
     "static/media/img9.jpg": "/steph_personal_website/static/media/img9.4874287bc37c6053f36e.jpg",
@@ -12,13 +12,14 @@
     "static/media/img8.jpg": "/steph_personal_website/static/media/img8.a23561ef2694e3db232b.jpg",
     "static/media/img1.jpg": "/steph_personal_website/static/media/img1.407f542319f58d6fa6a5.jpg",
     "static/media/img3.jpg": "/steph_personal_website/static/media/img3.caf270941403c6ce8e65.jpg",
+    "static/media/logo1.jpg": "/steph_personal_website/static/media/logo1.f6ab7838e5b5a17bac4f.jpg",
     "index.html": "/steph_personal_website/index.html",
-    "main.b8f2ebdc.css.map": "/steph_personal_website/static/css/main.b8f2ebdc.css.map",
-    "main.5b60f39f.js.map": "/steph_personal_website/static/js/main.5b60f39f.js.map",
+    "main.add701e5.css.map": "/steph_personal_website/static/css/main.add701e5.css.map",
+    "main.a76af48f.js.map": "/steph_personal_website/static/js/main.a76af48f.js.map",
     "453.253ccfac.chunk.js.map": "/steph_personal_website/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8f2ebdc.css",
-    "static/js/main.5b60f39f.js"
+    "static/css/main.add701e5.css",
+    "static/js/main.a76af48f.js"
   ]
 }

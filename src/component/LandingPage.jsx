@@ -18,10 +18,10 @@ import { FaFacebook, FaInstagram, FaEnvelope } from "react-icons/fa";
 import Footer from "./Footer";
 
 const navigation = [
-	{ name: "Product", href: "#" },
-	{ name: "Features", href: "#" },
-	{ name: "Marketplace", href: "#" },
-	{ name: "Company", href: "#" },
+	{ name: "About", href: "#about" },
+	{ name: "Blog Post", href: "#blog" },
+	{ name: "Photos", href: "#photos" },
+	{ name: "Contact", href: "#footer" },
 ];
 const posts = [
 	{

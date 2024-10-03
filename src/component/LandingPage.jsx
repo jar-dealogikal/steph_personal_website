@@ -16,7 +16,7 @@ import img8 from "../image/img8.jpg";
 import img9 from "../image/img9.jpg";
 import { FaFacebook, FaInstagram, FaEnvelope } from "react-icons/fa";
 import Footer from "./Footer";
-import logo from "../image/logo.png";
+import logo from "../image/logo1.jpg";
 
 const navigation = [
 	{ name: "About", href: "#about" },

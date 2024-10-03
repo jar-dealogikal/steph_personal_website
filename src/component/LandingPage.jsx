@@ -55,8 +55,6 @@ const photos1 = [
 		id: 4,
 		img: img4,
 	},
-];
-const photos2 = [
 	{
 		id: 5,
 		img: img5,
@@ -115,7 +113,7 @@ export default function Example() {
 							<a
 								key={item.name}
 								href={item.href}
-								className="text-sm font-bold leading-6 text-white"
+								className="text-sm font-bold leading-6 text-white hover:bg-[#de39ff] px-5 py-2 rounded-full"
 							>
 								{item.name}
 							</a>
@@ -203,7 +201,7 @@ export default function Example() {
 								</p>
 								<div className="mt-10 flex items-center justify-center gap-x-6">
 									<a
-										href="https://www.facebook.com/janmaaku/"
+										href="https://www.facebook.com/stephanie.rosales.1088"
 										target="_blank"
 										rel="noopener noreferrer"
 										className="cursor-pointer"
@@ -211,7 +209,7 @@ export default function Example() {
 										<FaFacebook className="h-7 w-7 text-[#de39ff] hover:text-pink-500" />
 									</a>
 									<a
-										href="https://www.instagram.com/janmaaku14/"
+										href="https://www.instagram.com/stephaniedianrosales/?fbclid=IwY2xjawFrDplleHRuA2FlbQIxMAABHWf1elYNYrwOlE6LROizCKANOgHIBg653gjPGbzPI96F90_PslAfQwMaqQ_aem_6CXdHMDoBPBs1XWUHbxiGA"
 										target="_blank"
 										rel="noopener noreferrer"
 										className="cursor-pointer"
@@ -219,7 +217,7 @@ export default function Example() {
 										<FaInstagram className="h-7 w-7 text-[#de39ff] hover:text-pink-400" />
 									</a>
 									<a
-										href="mailto:janmaakurubio14@gmail.com"
+										href="mailto:rosalesstephaniedian@gmail.com"
 										className="cursor-pointer"
 									>
 										<FaEnvelope className="h-7 w-7 text-[#de39ff] hover:text-pink-500" />
@@ -246,7 +244,7 @@ export default function Example() {
 
 				<div
 					id="about"
-					className="relative z-10 mt-32 bg-gray-900 pb-20 sm:mt-56 sm:pb-24 xl:pb-0"
+					className="relative z-10 mt-32 bg-pink-900 pb-20 sm:mt-56 sm:pb-24 xl:pb-0"
 				>
 					<div aria-hidden="true" className="absolute inset-0 overflow-hidden">
 						<div className="absolute left-[calc(50%-19rem)] top-[calc(50%-36rem)] transform-gpu blur-3xl">
@@ -289,7 +287,7 @@ export default function Example() {
 									<div className="font-semibold text-white">
 										Stephanie Dian Rosales
 									</div>
-									<div className="mt-1 text-gray-400">CEO of Tuple</div>
+									<div className="mt-1 text-gray-400">Production Operator</div>
 								</figcaption>
 							</figure>
 						</div>
@@ -337,7 +335,34 @@ export default function Example() {
 				</section>
 
 				{/* photos */}
-				<div id="photos" className="relative overflow-hidden bg-white">
+				<section id="photos">
+					<div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
+						<h1 className="text-center py-10 text-xl sm:text-8xl font-serif bg-gradient-to-r from-cyan-600 via-rose-500 to-amber-900 bg-clip-text text-transparent">
+							Photos
+						</h1>
+						<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
+							{photos1.map((item) => (
+								<div
+									key={item.id}
+									className={`${item.span} h-auto md:h-full flex flex-col`}
+								>
+									<div className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
+										<img
+											src={item.img}
+											alt={item.title}
+											className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
+										/>
+										<div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
+										<h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
+											{item.title}
+										</h3>
+									</div>
+								</div>
+							))}
+						</div>
+					</div>
+				</section>
+				{/* <div id="photos" className="relative overflow-hidden bg-white">
 					<div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
 						<div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
 							<div className="sm:max-w-lg">
@@ -403,7 +428,7 @@ export default function Example() {
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</main>
 
 			{/* Footer */}

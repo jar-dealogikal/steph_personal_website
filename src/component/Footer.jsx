@@ -2,7 +2,7 @@ const navigation = {
 	social: [
 		{
 			name: "Facebook",
-			href: "https://www.facebook.com/profile.php?id=100007283655288&_rdc=1&_rdr",
+			href: "https://www.facebook.com/stephanie.rosales.1088",
 			icon: (props) => (
 				<svg fill="currentColor" viewBox="0 0 24 24" {...props}>
 					<path
@@ -15,7 +15,7 @@ const navigation = {
 		},
 		{
 			name: "Instagram",
-			href: "https://www.instagram.com/jelylariosa/?fbclid=IwY2xjawFplzlleHRuA2FlbQIxMAABHYKOEUv4ZV_1QRKFQv8NCQKa9VD12CpQfshnpNgIhzibtsmEmTh0ZpN-9w_aem_zLUlL1HqACqtOaL93Nr0vQ",
+			href: "https://www.instagram.com/stephaniedianrosales/?fbclid=IwY2xjawFrDplleHRuA2FlbQIxMAABHWf1elYNYrwOlE6LROizCKANOgHIBg653gjPGbzPI96F90_PslAfQwMaqQ_aem_6CXdHMDoBPBs1XWUHbxiGA",
 			icon: (props) => (
 				<svg fill="currentColor" viewBox="0 0 24 24" {...props}>
 					<path
@@ -31,7 +31,7 @@ const navigation = {
 
 export default function Example() {
 	return (
-		<footer id="contact" aria-labelledby="footer-heading">
+		<footer id="footer" aria-labelledby="footer-heading">
 			<h2 id="footer-heading" className="sr-only">
 				Footer
 			</h2>

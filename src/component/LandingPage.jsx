@@ -16,6 +16,7 @@ import img8 from "../image/img8.jpg";
 import img9 from "../image/img9.jpg";
 import { FaFacebook, FaInstagram, FaEnvelope } from "react-icons/fa";
 import Footer from "./Footer";
+import logo from "../image/logo.png";
 
 const navigation = [
 	{ name: "About", href: "#about" },
@@ -86,16 +87,12 @@ export default function Example() {
 			<header className="absolute inset-x-0 top-0 z-50">
 				<nav
 					aria-label="Global"
-					className="flex items-center justify-between p-6 lg:px-8"
+					className="flex items-center justify-between p-6 lg:px-20"
 				>
 					<div className="flex lg:flex-1">
 						<a href="/#" className="-m-1.5 p-1.5">
 							<span className="sr-only">Your Company</span>
-							<img
-								alt=""
-								src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
-								className="h-8 w-auto"
-							/>
+							<img alt="" src={logo} className="h-16 w-auto rounded-full" />
 						</a>
 					</div>
 					<div className="flex lg:hidden">
@@ -130,11 +127,7 @@ export default function Example() {
 						<div className="flex items-center justify-between">
 							<a href="/#" className="-m-1.5 p-1.5">
 								<span className="sr-only">Your Company</span>
-								<img
-									alt=""
-									src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-									className="h-8 w-auto"
-								/>
+								<img alt="" src={logo} className="h-8 w-auto" />
 							</a>
 							<button
 								type="button"
